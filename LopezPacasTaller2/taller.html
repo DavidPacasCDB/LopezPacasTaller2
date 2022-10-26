@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reposición taller 2</title>
+</head>
+<body>
+	<form name="formulario1">
+            <table style="text-align: left; margin-left: auto; margin-right: auto;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="a">Ingresa el valor de a:</label>
+                        </td>
+                        <td>
+                            <input name="valora" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="b">Ingresa el valor de b:</label>
+                        </td>
+                        <td>
+                            <input name="valorb" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="c">Ingresa el valor de c:</label>
+                        </td>
+                        <td>
+                            <input name="valorc" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="button" onclick="algoritmo();" />
+                            <input type="reset" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="discriminante">Valor de discriminante:</label>
+                        </td>
+                        <td>
+                            <input name="discriminante" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="x1">Valor de x1:</label>
+                        </td>
+                        <td>
+                            <input name="x1" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="x2">Valor de x2:</label>
+                        </td>
+                        <td>
+                            <input name="x2" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+	<script type="text/javascript" src="js/taller.js"></script>
+</body>
+</html>
